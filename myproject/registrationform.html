@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+    <script type=text/javascript> function check()
+{
+if (document.f.new.value != document.f.retype.value)
+{
+alert("Password and Re-confirm Password are not the same");
+    return false;
+  }
+  else
+    return true;
+}
+</script>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="cssregistration.css">
+        
+    </head>
+    <body>
+        <h1 class="logo mr-auto"><b><a href="index.html" style="color: white">BIA Inc.</a></b></h1>
+        <h1>BIA ENROLMENT FORM</h1>
+        <div class="register">
+            <h3>Kindly Register Here.</h3><div class="smallchops"><small>Already a Registered User ? Click here to <span><a class="click" href="UserLoginform.html">Login.</a>&nbsp;or go Back to&nbsp;<a href="index.html"><i><b>Homepage.</b></i></a></span></small></div><br>
+            <form  id="register" method="post" action="userregistration.php" onsubmit="return check();">
+                <label>First Name:</label><br>
+                <input type="text" name="Fname" id="name" placeholder="first name here" required><br><br>
+                <label>Middle Name:</label><br>
+                <input type="text" name="Mname" id="name" placeholder="middle name here" required><br><br>
+                 <label>Surname Name:</label><br>
+                <input type="text" name="Sname" id="name" placeholder="first name here" required><br><br>
+                 <!--<input type="number" name="Mnum" id="num" placeholder="Enter Phone number here." required><br><br></span>-->
+                 <label>Email:</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email here." required><br><br>
+                <label>Username:</label><br>
+                <input type="username" name="username" id="user" placeholder="Type Username of your choice." required><br><br>
+                
+                 <label>Password:</label><br>
+                <input type="password" name="old" id="pwd"  placeholder="Enter your password here." required><br><br>
+                 <label>Re-confirm Password:</label><br>
+                <input type="password" name="new" id="pwd" placeholder="Re-Enter your password here." required><br><br>
+            <!--<span><input type="number" name="Mnum" id="num" placeholder="Enter Phone number here." required><br><br></span>-->
+                 <label>Select Country Code:</label><br>
+                <select id="ph" name="zonecode">
+<option>Select Country Code</option>
+<option>Afghanistan (+93)</option>
+<option>Albania (+355)</option>
+<option>Algeria (+213)</option>
+<option>American Samoa (+1)</option>
+<option>Andorra (+376)</option>
+<option>Angola  (+244)</option>
+<option>Anguilla (+1)</option>
+<option>Antarctica (+672)</option>
+<option>Antigua  (+1)</option>
+<option>Argentina (+54)</option>
+<option>Armenia  (+374)</option>
+<option>Aruba    (+297)</option>
+<option>Ascension (+247)</option>
+<option>Australia (+61)</option>
+<option>Australian External Territories (+672)</option>
+<option>Austria  (+43)</option>
+<option>Azerbaijan (+994)</option>
+<option>Bahamas (+1)</option>
+<option>Bahrain (+973)</option>
+<option>Bangladesh (+880)</option>
+<option>Barbados (+1)</option>
+<option>Barbuda (+1)</option>
+<option>Belarus (+375)</option>
+<option>Belgium (+32)</option>
+<option>Belize (+501)</option>
+<option>Benin  (+229)</option>
+<option>Bermuda (+1)</option>
+<option>Bhutan  (+975)</option>
+<option>Bolivia (+591)</option>
+<option>Bosnia Herzegovina (+387)</option>
+<option>Botswana (+267)</option>
+<option>Brazil   (+55)</option>
+<option>British Virgin Islands (+1)</option>
+<option>Brunei Darussalam (+673)</option>
+<option>Bulgaria (+359)</option>
+<option>Burkina Faso (+226)</option>
+<option>Burundi (+257)</option>
+<option>Cambodia (+855)</option>
+<option>Cameroon (+237)</option>
+<option>Canada   (+1)</option>
+<option>Cape Verde Islands (+238)</option>
+<option>Cayman Islands    (+1)</option>
+<option>Central African Republic (+236)</option>
+<option>Chad (+235)</option>
+<option>Chatham Island (New Zealand) (+64)</option>
+<option>Chile (+56)</option>
+<option>China (PRC) (+86)</option>
+<option>Christmas Island (+61-8)</option>
+<option>Cocos-Keeling Islands (+61)</option>
+<option>Colombia (+57)</option>
+<option>Comoros (+269)</option>
+<option>Congo (+242)</option>
+<option>Congo, Dem. Rep. of (former Zaire) (+243)</option>
+<option>Cook Islands (+682)</option>
+<option>Costa Rica (+506)</option>
+<option>Côte d'Ivoire (Ivory Coast) (+225)</option>
+<option>Croatia (+385)</option>
+<option>Cuba (+53)</option>
+<option>Cuba (Guantanamo Bay) (+5399)</option>
+<option>Curaçao (+599)</option>
+<option>Cyprus (+357)</option>
+<option>Czech Republic (+420)</option>
+<option>Denmark (+45)</option>
+<option>Diego Garcia (+246)</option>
+<option>Djibouti (+253)</option>
+<option>Dominica (+1)</option>
+<option>Dominican Republic (+1)</option>
+<option>East Timor (+670)</option>
+<option>Easter Island (+56)</option>
+<option>Ecuador (+593)</option>
+<option>Egypt (+20)</option>
+<option>El Salvador (+503)</option>
+<option>Ellipso (Mobile Satellite service) (+8812)</option>
+<option>Ellipso (Mobile Satellite service) (+8813)</option>
+<option>EMSAT (Mobile Satellite service) (+88213)</option>
+<option>Equatorial Guinea (+240)</option>
+<option>Eritrea (+291)</option>
+<option>Estonia (+372)</option>
+<option>Ethiopia (+251)</option>
+<option>Falkland Islands (Malvinas) (+500)</option>
+<option>Faroe Islands (+298)</option>
+<option>Fiji Islands  (+679)</option>
+<option>Finland (+358)</option>
+<option>France (+33)</option>
+<option>French Antilles (+596)</option>
+<option>French Guiana (+594)</option>
+<option>French Polynesia (+689)</option>
+<option>Gabonese Republic (+241)</option>
+<option>Gambia (+220)</option>
+<option>Georgia (+995)</option>
+<option>Germany (+49)</option>
+<option>Ghana  (+233)</option>
+<option>Gibraltar (+350)</option>
+<option>Global Mobile Satellite System (GMSS) (+881)</option>
+<option>ICO Global (+8810)</option>
+<option>ICO Global (+8811)</option>
+<option>Ellipso 8812 (+8813)</option>
+<option>Iridium 8816 (+8817)</option>
+<option>Globalstar (Mobile Satellite Service) (+8818)</option>
+<option>Globalstar (Mobile Satellite Service) (+8819)</option>
+<option>Greece (+30)</option>
+<option>Greenland (+299)</option>
+<option>Grenada   (+1)</option>
+<option>Guadeloupe (+590)</option>
+<option>Guam (+1)</option>
+<option>Guantanamo Bay (+5399)</option>
+<option>Guatemala (+502)</option>
+<option>Guinea-Bissau (+245)</option>
+<option>Guinea (+224)</option>
+<option>Guyana (+592)</option>
+<option>Haiti (+509)</option>
+<option>Honduras (+504)</option>
+<option>Hong Kong (+852)</option>
+<option>Hungary (+36)</option>
+<option>ICO Global (Mobile Satellite Service) (+8810)</option>
+<option>ICO Global (Mobile Satellite Service)(+8811)</option>
+<option>Iceland (+354)</option>
+<option>India (+91)</option>
+<option>Indonesia (+62)</option>
+<option>Inmarsat (Atlantic Ocean - East) (+871)</option>
+<option>Inmarsat (Atlantic Ocean - West) (+874)</option>
+<option>Inmarsat (Indian Ocean) (+873)</option>
+<option>Inmarsat (Pacific Ocean) (+872)</option>
+<option>Inmarsat SNAC (+870)</option>
+<option>International Freephone Service (+800)</option>
+<option>International Shared Cost Service (ISCS) (+808)</option>
+<option>Iran (+98)</option>
+<option>Iraq (+964)</option>
+<option>Ireland (+353)</option>
+<option>Iridium (Mobile Satellite service) (+8816)</option>
+<option>Iridium (Mobile Satellite service) (+8817)</option>
+<option>Israel (+972)</option>
+<option>Italy (+39)</option>
+<option>Ivory Coast (+225)</option>
+<option>Jamaica (+1)</option>
+<option>Japan (+81)</option>
+<option>Jordan (+962)</option>
+<option>Kazakhstan (+7)</option>
+<option>Kenya (+254)</option>
+<option>Kiribati (+686)</option>
+<option>Korea North (+850)</option>
+<option>Korea South (+82)</option>
+<option>Kuwait (+965)</option>
+<option>Kyrgyz Republic (+996)</option>
+<option>Laos (+856)</option>
+<option>Latvia (+371)</option>
+<option>Lebanon (+961)</option>
+<option>Lesotho (+266)</option>
+<option>Liberia (+231)</option>
+<option>Libya (+218)</option>
+<option>Liechtenstein (+423)</option>
+<option>Lithuania (+370)</option>
+<option>Luxembourg (+352)</option>
+<option>Macao (+853)</option>
+<option>Macedonia (Former Yugoslav Rep of.) (+389)</option>
+<option>Madagascar (+261)</option>
+<option>Malawi (+265)</option>
+<option>Malaysia (+60)</option>
+<option>Maldives (+960)</option>
+<option>Mali Republic (+223)</option>
+<option>Malta (+356)</option>
+<option>Marshall Islands (+692)</option>
+<option>Martinique (+596)</option>
+<option>Mauritania (+222)</option>
+<option>Mauritius (+230)</option>
+<option>Mayotte Island (+269)</option>
+<option>Mexico (+52)</option>
+<option>Micronesia (Federal States of) (+691)</option>
+<option>Midway Island (+1)</option>
+<option>Moldova (+373)</option>
+<option>Monaco (+377)</option>
+<option>Mongolia (+976)</option>
+<option>Montenegro (+382)</option>
+<option>Montserrat (+1)</option>
+<option>Morocco (+212)</option>
+<option>Mozambique (+258)</option>
+<option>Myanmar (+95)</option>
+<option>Namibia (+264)</option>
+<option>Nauru (+674)</option>
+<option>Nepal (+977)</option>
+<option>Netherlands (+31)</option>
+<option>Netherlands Antilles (+599)</option>
+<option>Nevis (+1)</option>
+<option>New Caledonia (+687)</option>
+<option>New Zealand (+64)</option>
+<option>Nicaragua (+505)</option>
+<option>Niger (+227)</option>
+<option>Nigeria (+234)</option>
+<option>Niue (+683)</option>
+<option>Norfolk Island (+672)</option>
+<option>Northern Marianas Islands (Saipan, Rota & Tinian) (+1)</option>
+<option>Norway (+47)
+<option>Oman (+968)</option>
+<option>Pakistan (+92)</option>
+<option>Palau (+680)</option>
+<option>Palestinian Settlements (+970)</option>
+<option>Panama (+507)</option>
+<option>Papua New Guinea (+675)</option>
+<option>Paraguay (+595)</option>
+<option>Peru (+51)</option>
+<option>Philippines (+63)</option>
+<option>Poland (+48)</option>
+<option>Portugal (+351)</option>
+<option>Puerto Rico (+1)</option>
+<option>Qatar (+974)</option>
+<option>Réunion Island (+262)</option>
+<option>Romania (+40)</option>
+<option>Russia (+7)</option>
+<option>Rwandese Republic (+250)</option>
+<option>St. Helena (+290)</option>
+<option>St. Kitts/Nevis (+1)</option>
+<option>St. Lucia (+1)</option>
+<option>St. Pierre Miquelon (+508)</option>
+<option>St. Vincent Grenadines (+1)</option>
+<option>Samoa (+685)</option>
+<option>San Marino (+378)</option>
+<option>São Tomé and Principe (+239)</option>
+<option>Saudi Arabia (+966)</option>
+<option>Senegal (+221)</option>
+<option>Serbia (+381)</option>
+<option>Seychelles Republic (+248)</option>
+<option>Sierra Leone (+232)</option>
+<option>Singapore (+65)</option>
+<option>Slovak Republic (+421)</option>
+<option>Slovenia (+386)</option>
+<option>Solomon Islands (+677)</option>
+<option>Somali Democratic Republic (+252)</option>
+<option>South Africa (+27)</option>
+<option>Spain (+34)</option>
+<option>Sri Lanka (+94)</option>
+<option>Sudan (+249)</option>
+<option>Suriname (+597)</option>
+<option>Swaziland (+268)</option>
+<option>Sweden    (+46)</option>
+<option>Switzerland (+41)</option>
+<option>Syria (+963)</option>
+<option>Taiwan (+886)</option>
+<option>Tajikistan (+992)</option>
+<option>Tanzania (+255)</option>
+<option>Thailand (+66)</option>
+<option>Thuraya (Mobile Satellite service) (+88216)</option>
+<option>Timor Leste (+670)</option>
+<option>Togolese Republic (+228)</option>
+<option>Tokelau (+690)</option>
+<option>Tonga Islands (+676)</option>
+<option>Trinidad Tobago (+1)</option>
+<option>Tunisia (+216)</option>
+<option>Turkey (+90)</option>
+<option>Turkmenistan (+993)</option>
+<option>Turks and Caicos Islands (+1)</option>
+<option>Tuvalu (+688)</option>
+<option>Uganda (+256)</option>
+<option>Ukraine (+380)</option>
+<option>United States of America (+1)</option>
+<option>United Arab Emirates (+971)</option>
+<option>United Kingdom (+44)</option>
+<option>United States of America (+1)</option>
+<option>US Virgin Islands (+1)</option>
+<option>Universal Personal Telecommunications (+878)</option>
+<option>Uruguay (+598)</option>
+<option>Uzbekistan (+998)</option>
+<option>Vanuatu (+678)</option>
+<option>Vatican City1 (+39)</option>
+<option>Vatican City2 (+379)</option>
+<option>Venezuela (+58)</option>
+<option>Vietnam (+84)</option>
+<option>Wake Island (+808)</option>
+<option>Wallis and Futuna Islands (+681)</option>
+<option>Yemen (+967)</option>
+<option>Zambia (+260)</option>
+<option>Zanzibar (+255)</option>
+<option>Zimbabwe (+263)</option>
+</select>
+<span><input type="number" name="Mnum" id="num" placeholder="Enter Phone number here." required/><br><br></span>
+<label>Select Country of Origin:</label><br>
+<select id="country" name="mcountry">
+                   
+<option>Select your Country of Origin.</option>
+<option>United States of America</option>
+<option>Afghanistan</option>
+<option>Albania</option>
+<option>Algeria</option>
+<option>American Samoa</option>
+<option>Andorra</option>
+<option>Angola</option>
+<option>Anguilla</option>
+<option>Antarctica</option>
+<option>Antigua</option>
+<option>Argentina</option>
+<option>Armenia</option>
+<option>Aruba</option>
+<option>Ascension</option>
+<option>Australia</option>
+<option>Australian External Territories</option>
+<option>Austria</option>
+<option>Azerbaijan</option>
+<option>Bahamas</option>
+<option>Bahrain</option>
+<option>Bangladesh</option>
+<option>Barbados</option>
+<option>Barbuda</option>
+<option>Belarus</option>
+<option>Belgium</option>
+<option>Belize</option>
+<option>Benin</option>
+<option>Bermuda</option>
+<option>Bhutan</option>
+<option>Bolivia</option>
+<option>Bosnia & Herzegovina</option>
+<option>Botswana</option>
+<option>Brazil</option>
+<option>British Virgin Islands</option>
+<option>Brunei Darussalam</option>
+<option>Bulgaria</option>
+<option>Burkina Faso</option>
+<option>Burundi</option>
+<option>Cambodia</option>
+<option>Cameroon</option>
+<option>Canada</option>
+<option>Cape Verde Islands</option>
+<option>Cayman Islands</option>
+<option>Central African Republic</option>
+<option>Chad</option>
+<option>Chatham Island (New Zealand)</option>
+<option>Chile</option>
+<option>China (PRC)</option>
+<option>Christmas Island</option>
+<option>Cocos-Keeling Islands</option>
+<option>Colombia</option>
+<option>Comoros</option>
+<option>Congo</option>
+<option>Congo, Dem. Rep. of (former Zaire)</option>
+<option>Cook Islands</option>
+<option>Costa Rica</option>
+<option>Côte d'Ivoire (Ivory Coast)</option>
+<option>Croatia</option>
+<option>Cuba</option>
+<option>Cuba (Guantanamo Bay)</option>
+<option>Curaçao</option>
+<option>Cyprus</option>
+<option>Czech Republic</option>
+<option>Denmark</option>
+<option>Diego Garcia</option>
+<option>Djibouti</option>
+<option>Dominica</option>
+<option>Dominican Republic</option>
+<option>East Timor</option>
+<option>Easter Island</option>
+<option>Ecuador</option>
+<option>Egypt</option>
+<option>El Salvador</option>
+<option>Equatorial Guinea</option>
+<option>Eritrea</option>
+<option>Estonia</option>
+<option>Ethiopia</option>
+<option>Falkland Islands (Malvinas)</option>
+<option>Faroe Islands</option>
+<option>Fiji Islands</option>
+<option>Finland</option>
+<option>France</option>
+<option>French Antilles</option>
+<option>French Guiana</option>
+<option>French Polynesia</option>
+<option>Gabonese Republic</option>
+<option>Gambia</option>
+<option>Georgia</option>
+<option>Germany</option>
+<option>Ghana</option>
+<option>Gibraltar</option>
+<option>Greece</option>
+<option>Greenland</option>
+<option>Grenada</option>
+<option>Guadeloupe</option>
+<option>Guam</option>
+<option>Guantanamo Bay</option>
+<option>Guatemala</option>
+<option>Guinea-Bissau</option>
+<option>Guinea</option>
+<option>Guyana</option>
+<option>Haiti</option>
+<option>Honduras</option>
+<option>Hong Kong</option>
+<option>Hungary</option>
+<option>Iceland</option>
+<option>India</option>
+<option>Indonesia</option>
+<option>Iran</option>
+<option>Iraq</option>
+<option>Ireland </option>
+<option>Israel</option>
+<option>Italy</option>
+<option>Ivory Coast</option>
+<option>Jamaica</option>
+<option>Japan</option>
+<option>Jordan</option>
+<option>Kazakhstan</option>
+<option>Kenya</option>
+<option>Kiribati</option>
+<option>Korea North</option>
+<option>Korea South</option>
+<option>Kuwait</option>
+<option>Kyrgyz Republic</option>
+<option>Laos</option>
+<option>Latvia </option>
+<option>Lebanon</option>
+<option>Lesotho</option>
+<option>Liberia</option>
+<option>Libya</option>
+<option>Liechtenstein</option>
+<option>Lithuania</option>
+<option>Luxembourg</option>
+<option>Macao</option>
+<option>Macedonia (Former Yugoslav Rep of.)</option>
+<option>Madagascar</option>
+<option>Malawi</option>
+<option>Malaysia</option>
+<option>Maldives</option>
+<option>Mali Republic</option>
+<option>Malta</option>
+<option>Marshall Islands</option>
+<option>Martinique</option>
+<option>Mauritania</option>
+<option>Mauritius</option>
+<option>Mayotte Island</option>
+<option>Mexico</option>
+<option>Micronesia (Federal States of)</option>
+<option>Midway Island</option>
+<option>Moldova</option>
+<option>Monaco</option>
+<option>Mongolia</option>
+<option>Montenegro</option>
+<option>Montserrat</option>
+<option>Morocco</option>
+<option>Mozambique</option>
+<option>Myanmar</option>
+<option>Namibia</option>
+<option>Nauru</option>
+<option>Nepal</option>
+<option>Netherlands</option>
+<option>Netherlands Antilles</option>
+<option>Nevis</option>
+<option>New Caledonia</option>
+<option>New Zealand</option>
+<option>Nicaragua</option>
+<option>Niger</option>
+<option>Nigeria</option>
+<option>Niue</option>
+<option>Norfolk Island</option>
+<option>Northern Marianas Islands (Saipan, Rota & Tinian)</option>
+<option>Norway</option>
+<option>Oman</option>
+<option>Pakistan</option>
+<option>Palau</option>
+<option>Palestinian Settlements</option>
+<option>Panama</option>
+<option>Papua New Guinea</option>
+<option>Paraguay</option>
+<option>Peru</option>
+<option>Philippines</option>
+<option>Poland</option>
+<option>Portugal</option>
+<option>Puerto Rico</option>
+<option>Qatar</option>
+<option>Réunion Island</option>
+<option>Romania</option>
+<option>Russia</option>
+<option>Rwandese Republic</option>
+<option>St. Helena</option>
+<option>St. Kitts/Nevis</option>
+<option>St. Lucia</option>
+<option>St. Pierre & Miquelon</option>
+<option>St. Vincent & Grenadines</option>
+<option>Samoa</option>
+<option>San Marino</option>
+<option>São Tomé and Principe</option>
+<option>Saudi Arabia</option>
+<option>Senegal</option>
+<option>Serbia</option>
+<option>Seychelles Republic</option>
+<option>Sierra Leone</option>
+<option>Singapore</option>
+<option>Slovak Republic</option>
+<option>Slovenia</option>
+<option>Solomon Islands</option>
+<option>Somali Democratic Republic</option>
+<option>South Africa</option>
+<option>Spain</option>
+<option>Sri Lanka</option>
+<option>Sudan</option>
+<option>Suriname</option>
+<option>Swaziland</option>
+<option>Sweden</option>
+<option>Switzerland</option>
+<option>Syria</option>
+<option>Taiwan</option>
+<option>Tajikistan</option>
+<option>Tanzania</option>
+<option>Thailand</option>
+<option>Timor Leste</option>
+<option>Togolese Republic</option>
+<option>Tokelau</option>
+<option>Tonga Islands</option>
+<option>Trinidad & Tobago</option>
+<option>Tunisia</option>
+<option>Turkey</option>
+<option>Turkmenistan</option>
+<option>Turks and Caicos Islands</option>
+<option>Tuvalu</option>
+<option>Uganda</option>
+<option>Ukraine</option>
+<option>United Arab Emirates</option>
+<option>United Kingdom</option>
+<option>United States of America</option>
+<option>US Virgin Islands</option>
+<option>Uruguay</option>
+<option>Uzbekistan</option>
+<option>Vanuatu</option>
+<option>Vatican City1</option>
+<option>Vatican City2</option>
+<option>Venezuela</option>
+<option>Vietnam</option>
+<option>Wake Island</option>
+<option>Wallis and Futuna Islands</option>
+<option>Yemen</option>
+<option>Zambia</option>
+<option>Zanzibar</option>
+<option>Zimbabwe</option>
+</select><br><br>
+                
+                <input type="radio" name="gender" value="male"/> Male <span><input type="radio" name="gender" value="female"> Female</span><span><input type="radio" name="gender" value="other"> Other</span><br><br>
+  
+  
+                 <!--<label>Gender:</label><br>
+                <select id="sex" name="gender" value="gender" required>
+                    <option>----</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                    <option>I Rather Not Say</option>
+                </select><br><br>-->
+                <label>Address:</label><br>
+                <input type="text" name="Address" id="addy" placeholder="Enter your Residential Address here" required><br><br>
+                <h4>Terms & Condtions</h4>
+                <input name=cb2 type=checkbox value="I consented" required/> <span><small style="text-align: justify-all">By Clicking this I acknowledge that every Information Listed here Solely belongs to me,and I consent to the Use of My Personal Data Under BIA terms & conditions.<br><br></small>
+           <div style="text-align: match-parent" ><input type=Submit id=sub value="Submit" /> <span class="seperator"><input type=Reset id=rst /></span></div>
+                
+                
+                </span>
+                <br>
+        
+        <br>
+        <br>
+        <footer style="text-align: center; color:steelblue">
+        <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong style="color:black"><span >BIA</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        
+        Designed by <a href="index.html">BIA</a>
+      </div>
+    </div>
+        </footer>
+            </form>
+        </div>
+    </body>
+</html>

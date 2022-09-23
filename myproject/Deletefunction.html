@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Delete Specific Participant</title>
+        <style>
+        table{
+
+border-style:solid;
+
+border-width:2px;
+
+border-color:lawngreen;
+        width: 350px;
+        height: 50PX;
+
+    align-content: center;
+    text-align: center;
+    margin-left: 450px;
+
+}
+        </style>
+    
+    </head>
+  
+<body bgcolor="#85C1E9">
+     <h1 class="logo mr-auto" style="text-align: center;color: white"><b>BIA Inc.</b></h1>
+    <h2 style="text-align: center;color: white">Delete Specific Participant</h2>
+    
+    <form name="Deletefunction" method="post" action="Deletefunction.php"> 
+        <table width="220" border="border">
+            <tr>
+    <td><b>Enter Username:</b><input type="text" name="username" id="DeleteData" placeholder="Registered Username Here" required/><br><br>
+        <input type=Submit id=sub value="Delete" />&nbsp;<input type=Reset id=sub value="Reset" /></td><br><br>
+                </tr>
+            </table>
+        <br>
+        <br>
+        <br>
+        <div style="text-align: center">
+        <b >Click&nbsp;&nbsp;<a href="Admin.php">Here</a>&nbsp;&nbsp;To go Back to the Admin Page</b></div>
+    </form>
+    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer style="text-align: center; color:Blue">
+        <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong style="color:black"><span >BIA</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        
+        Designed by <b><a href="index.html" style="color:black">BIA</a></b>
+      </div>
+    </div>
+        </footer> 
+    </body>
+    <?php }
+
+else
+
+ 	echo "This User ID does not exist"; 
+?>
+</html>

@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color:#0880e8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color:white;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    color:white;
+}
+h3{
+    text-align: center;
+    padding: 20px;
+}
+
+h4{
+    text-align: center;
+    padding: 20px;
+    color:#1B4F72;
+}
+.register{
+    background: #D1F2EB;
+    align-content: center;
+    width: 558px;
+    margin: 0px 0px 0px 320px;
+    color: #0E6251;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 14px;
+    
+}
+#register{
+    margin-left: 47px;
+}
+
+label{
+    color:darkcyan;
+    font-family: fantasy;
+    font-size: 17px;
+    font-style: normal;
+}
+
+#name:hover{
+    background-color: antiquewhite;
+}
+
+#ph:hover{
+    background-color: antiquewhite;
+}
+
+#country:hover{
+    background-color: antiquewhite;
+}
+
+#num:hover{
+    background-color: antiquewhite;
+}
+#name{
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: yellow, 4px;
+    padding: 6px;
+}
+#ph{
+    width: 160px;
+    padding: 6px;
+    border: darksalmon;
+    border-radius: 8px;
+    outline: yellow,4px;
+}
+#country{
+    width: 320px;
+    padding: 6px;
+    border: darksalmon;
+    border-radius: 8px;
+    outline: yellow, 4px;
+}
+#num{
+    width: 200px;
+    height: 20px;
+    padding: 6px;
+     border: darksalmon;
+    border-radius: 8px;
+    outline: gold,4;
+    
+}
+#email:hover{
+    background-color: antiquewhite;
+}
+#email{
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: yellow, 4px;
+    padding: 6px;
+}
+
+#pwd:hover{
+    background-color: antiquewhite;
+}
+#pwd{
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: yellow, 4px;
+    padding: 6px;
+}
+
+
+
+#confirmpwd{
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: yellow, 4px;
+    padding: 6px;
+}
+
+#gender:hover{
+    background-color: antiquewhite;
+}
+
+#gender{
+    width: 136px;
+    padding: 6px;
+    border: darksalmon;
+    border-radius: 8px;
+    outline: gold;
+}
+
+#addy:hover{
+    background-color: antiquewhite;
+}
+#addy{
+    width: 367px;
+    height: 85px;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    outline: yellow, 4px;
+}
+
+#sub{
+    width: 120px;
+    padding: 7px;
+    font-size: medium;
+    font-family: sans-serif;
+    font-size: initial;
+    font-style: revert;
+    border: coral;
+    border-radius: 8px;
+    background-color: aqua;
+}
+    
+#rst{
+   
+    width: 120px;
+    padding: 7px;
+    font-size: medium;
+    font-family: sans-serif;
+    font-size: initial;
+    font-style: revert;
+    border: coral;
+    border-radius: 8px;
+    background-color: aqua;
+    
+    
+     
+}
+
+#rst:hover{
+    background-color: coral;
+}
+
+
+#sub:hover{
+    background-color: cornflowerblue;
+}
+
+.seperator{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+::placeholder{
+    font-style: italic
+}
+
+#user{
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: yellow, 4px;
+    padding: 6px;
+   
+}
+
+#user:hover{
+    background-color: antiquewhite;
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input:focus {
+  background-color:yellow;
+}
+
+.buttons {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 60px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.click{
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.click:hover{
+    background-color: yellow;
+}
+.smallchops{
+    text-align: center;
+    color: red;
+}
+
+
+
+#login{
+    background: #3090C7;
+    align-content: center;
+    width: 500px;
+    margin: 0px 0px 0px 320px;
+    color: #0E6251;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 14px;
+}

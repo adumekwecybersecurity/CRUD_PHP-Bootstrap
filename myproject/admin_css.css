@@ -1,0 +1,90 @@
+body{
+    background-image: url(background_01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sherrycoco{
+    text-align: center;
+    color: olivedrab;
+}
+
+.textme{
+    background: forestgreen;
+    text-align:center;
+    width: 400px;
+    margin: 0px 60px 0px 400px;
+    color: #0E6251;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 14px;
+}
+    
+label{
+	color:whitesmoke;
+    width: 160px;
+    padding: 6px;
+    border: darksalmon;
+    border-radius: 8px;
+    outline: yellow,4px;
+	display:inline-block;
+	text-align:center;
+	 margin: 0px 60px 0px 75px;
+}
+
+#user{
+	width: 350px;
+    height: 30px;
+    padding: 6px;
+     border: darksalmon;
+    border-radius: 8px;
+    outline: gold,4;
+	
+	 
+}
+#user:hover{
+
+background-color: antiquewhite;
+}
+#pwd{
+	width: 350px;
+    height: 30px;
+    padding: 6px;
+     border: darksalmon;
+    border-radius: 8px;
+    outline: gold,4;
+	
+	
+}
+#pwd:hover{
+
+background-color: antiquewhite;
+}
+
+#A1:hover{
+	 background-color: cornflowerblue;
+}
+
+
+#A2:hover{
+	 background-color: coral;
+}
+
+
+input:focus {
+  background-color:yellow;
+}
+
+
+button {
+  border: 4px;
+  padding: 8px 10px;
+  text-align: right;
+  text-decoration: none;
+  display: left;
+  font-size: 20px;
+  margin: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
