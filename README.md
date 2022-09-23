@@ -30,7 +30,7 @@ submitting the form.
 via establish an SQL connection. 
 
 
-#STEPS TO USE PROJECT :
+# STEPS TO USE PROJECT :
 
 - clone Repo into the public directory of your wamp-server via terminal ie C:\wamp64\www> 
 -  Launch wamp-server
@@ -41,6 +41,62 @@ in the Exported Database folder.
 -To access admin login page via browser end the path with  "/Admin_Login.php
 
 
-#INTERFACES AND VIEWS OF THE SYSTEM: 
+# INTERFACES AND VIEWS OF THE SYSTEM: 
+
+- Configuring Database
+
+![](snapshots/snapshot01.jpg)
+
+- Setting Up virtual-Host
+
+![](snapshots/snapshot02.jpg)
+
+- Homepage or index.html page
+
+![](snapshots/snapshot03.jpg)
+
+- Registration Page
+
+![](snapshots/snapshot04.jpg)
+
+- User Login Form
+
+![](snapshots/snapshot05.jpg)
+
+- Users Dashboard after successful Login
+
+![](snapshots/snapshot06.jpg)
+
+- User session expired After Logged Out.
+
+![](snapshots/snapshot07.jpg)
+
+- Administrator Login Form
+
+![](snapshots/snapshot08.jpg)
+
+- Administrator Dashboard and Information
+
+![](snapshots/snapshot09.jpg)
+
+- View Specific User by Administrator
+
+![](snapshots/snapshot10.jpg)
+
+- Information of Specific user return view to Administrator
+
+![](snapshots/snapshot11.jpg)
+
+- View Information of All users in the Database or Registered for the Event.
+
+![](snapshots/snapshot12.jpg)
+
+- Delete User by their ID or Delete specific User
+
+![](snapshots/snapshot13.jpg)
+
+- Admin Logout Session time out. 
+
+![](snapshots/snapshot14.jpg)
 
 *******Enjoy ***************
